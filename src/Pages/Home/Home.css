@@ -1,0 +1,44 @@
+/* Home.css */
+
+.home-container {
+  text-align: center;
+  padding: 20px;
+}
+
+.home-title {
+  margin-bottom: 20px;
+}
+
+.carousel-container {
+  max-width: 800px; /* Ajusta el ancho máximo del carrusel */
+  margin: 0 auto;
+}
+
+.carousel-image {
+  width: 100%;
+  max-height: 400px;
+}
+
+.minicards-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+.carousel-caption {
+  background-color: rgba(0, 0, 0, 0.313); /* Fondo semitransparente negro con más opacidad */
+  padding: 10px; /* Agregar un espacio alrededor del texto */
+  color: #fff; /* Cambiar el color del texto a blanco */
+  text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.102); /* Agregar un sombreado más pronunciado */
+  border-radius: 10px; /* Agregar un borde redondeado */
+}
+icard {
+  width: calc(33.33% - 20px); /* Ajusta el tamaño de las minicards */
+  margin-bottom: 20px;
+}
+
+.footer {
+  background-color: #f8f9fa;
+  padding: 10px 0;
+  text-align: center;
+}
