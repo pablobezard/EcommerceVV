@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/ecommerceVV/static/css/main.0d26633a.css",
+    "main.js": "/ecommerceVV/static/js/main.111edc5a.js",
+    "static/js/787.dcc73137.chunk.js": "/ecommerceVV/static/js/787.dcc73137.chunk.js",
+    "static/media/product3.jpg": "/ecommerceVV/static/media/product3.1f59b9f8f21aebe294a5.jpg",
+    "static/media/coursel3.jpg": "/ecommerceVV/static/media/coursel3.1464aad6b408a1a95422.jpg",
+    "static/media/product5.jpg": "/ecommerceVV/static/media/product5.54eca8651ca764be16d7.jpg",
+    "static/media/coursel2.jpg": "/ecommerceVV/static/media/coursel2.901206715814110a8665.jpg",
+    "static/media/product6.jpg": "/ecommerceVV/static/media/product6.bfc7b7f6f6f64b42c346.jpg",
+    "static/media/cart.jpg": "/ecommerceVV/static/media/cart.9f881e15dfeb3385e667.jpg",
+    "static/media/product2.jpg": "/ecommerceVV/static/media/product2.76888f6a7576869b88ac.jpg",
+    "static/media/product4.jpg": "/ecommerceVV/static/media/product4.1acb380df1058f3428ff.jpg",
+    "static/media/camera.jpg": "/ecommerceVV/static/media/camera.e3d686ee0b68fef12176.jpg",
+    "static/media/product1.jpg": "/ecommerceVV/static/media/product1.4a901d47e6740220c546.jpg",
+    "static/media/coursel1.jpg": "/ecommerceVV/static/media/coursel1.f369a91cd5c91d523131.jpg",
+    "static/media/error404.jpg": "/ecommerceVV/static/media/error404.7f523c377fce5cf0abcb.jpg",
+    "index.html": "/ecommerceVV/index.html",
+    "main.0d26633a.css.map": "/ecommerceVV/static/css/main.0d26633a.css.map",
+    "main.111edc5a.js.map": "/ecommerceVV/static/js/main.111edc5a.js.map",
+    "787.dcc73137.chunk.js.map": "/ecommerceVV/static/js/787.dcc73137.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0d26633a.css",
+    "static/js/main.111edc5a.js"
+  ]
+}
