@@ -6,6 +6,7 @@ import Products from './Pages/Products/Products';
 import Cart from './Pages/Cart/Cart';
 import LoginForm from './Components/Login/LoginForm';
 import RegisterForm from './Components/Register/RegisterForm';
+import Page404 from './Pages/Page404';
 import './App.css';
 
 function App() {
@@ -36,6 +37,7 @@ function App() {
           />
           <Route path="/login" element={<LoginForm />} />
           <Route path="/register" element={<RegisterForm />} />
+          <Route path="*" element={<Page404 />} />
         </Routes>
       </div>
     </Router>
