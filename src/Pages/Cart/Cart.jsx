@@ -1,9 +1,7 @@
 import React from 'react';
 import './Cart.css';
 
-
-
-function Cart({ cartItems, removeFromCart }) {
+function Cart({ cartItems, removeFromCart, convertToPesos, exchangeRate }) {
   const cartTotal = cartItems.reduce((total, item) => total + item.price, 0);
 
   return (
@@ -19,12 +17,10 @@ function Cart({ cartItems, removeFromCart }) {
                 <img src={item.image} alt={item.name} className="cart-item-image" />
                 <div className="cart-item-details">
                   <p className="cart-item-name">{item.name}</p>
-                  <p className="cart-item-price">${item.price.toFixed(2)}</p>
+                  <p className="cart-item-price">${Math.floor(item.price)}</p>
+                  <p className="cart-item-price-pesos">{Math.floor(convertToPesos(item.price, exchangeRate))}</p>
                 </div>
-                <button
-                  className="remove-button"
-                  onClick={() => removeFromCart(item.id)} // Llama a la función removeFromCart
-                >
+                <button className="remove-button" onClick={() => removeFromCart(item.id)}>
                   Remove
                 </button>
               </li>
@@ -33,7 +29,8 @@ function Cart({ cartItems, removeFromCart }) {
         )}
       </div>
       <div className="cart-total">
-        <p>Total: ${cartTotal.toFixed(2)}</p>
+        <p>Total: ${Math.floor(cartTotal)}</p>
+        <p>Total in Pesos: {Math.floor(convertToPesos(cartTotal, exchangeRate))}</p>
         <button className="buy-button">Buy Now</button>
       </div>
       <div className="footer">
