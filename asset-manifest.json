@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/EcommerceVV/static/css/main.0d26633a.css",
-    "main.js": "/EcommerceVV/static/js/main.844213e0.js",
+    "main.js": "/EcommerceVV/static/js/main.3e990ced.js",
     "static/js/787.dcc73137.chunk.js": "/EcommerceVV/static/js/787.dcc73137.chunk.js",
     "static/media/product3.jpg": "/EcommerceVV/static/media/product3.1f59b9f8f21aebe294a5.jpg",
     "static/media/coursel3.jpg": "/EcommerceVV/static/media/coursel3.1464aad6b408a1a95422.jpg",
@@ -17,11 +17,11 @@
     "static/media/error404.jpg": "/EcommerceVV/static/media/error404.7f523c377fce5cf0abcb.jpg",
     "index.html": "/EcommerceVV/index.html",
     "main.0d26633a.css.map": "/EcommerceVV/static/css/main.0d26633a.css.map",
-    "main.844213e0.js.map": "/EcommerceVV/static/js/main.844213e0.js.map",
+    "main.3e990ced.js.map": "/EcommerceVV/static/js/main.3e990ced.js.map",
     "787.dcc73137.chunk.js.map": "/EcommerceVV/static/js/787.dcc73137.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.0d26633a.css",
-    "static/js/main.844213e0.js"
+    "static/js/main.3e990ced.js"
   ]
 }
